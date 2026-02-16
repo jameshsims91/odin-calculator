@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.btn {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  font-size: 30px;
+  margin: 15px;
+  border: 1px solid white;
+}
+
+.number:hover {
+  background-color: white;
+  border: 3px solid gold;
+  color: goldenrod;
+}
+
+.operand:hover {
+  background-color: black;
+  color: gold;
+  border: 3px solid white;
+}
+
+.clear:hover {
+  background-color: gold;
+  color: white;
+  border: 3px solid black;
+}
+
+.decimal:hover {
+  background-color: gold;
+  color: white;
+  border: 3px solid black;
+}
+
+.equal:hover {
+  background-color: gold;
+  color: white;
+  border: 3px solid black;
+}
+
+.first-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#screen {
+  width: 300px;
+  border: 3px solid goldenrod;
+  height: 75px;
+  margin: 10px;
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.previous {
+  font-size: 20px;
+}
+
+.current {
+  font-size: 30px;
+}
