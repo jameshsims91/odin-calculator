@@ -17,31 +17,36 @@ body {
   border: 1px solid white;
 }
 
-.number:hover {
+.btn.number:hover,
+.btn.number:active {
   background-color: white;
   border: 3px solid gold;
   color: goldenrod;
 }
 
-.operand:hover {
+.btn.operand:hover,
+.btn.operand:active {
   background-color: black;
   color: gold;
   border: 3px solid white;
 }
 
-.clear:hover {
+.btn.clear:hover,
+.btn.clear:active {
   background-color: gold;
   color: white;
   border: 3px solid black;
 }
 
-.decimal:hover {
+.btn.decimal:hover,
+.btn.decimal:active {
   background-color: gold;
   color: white;
   border: 3px solid black;
 }
 
-.equal:hover {
+.btn.equal:hover,
+.btn.equal:active {
   background-color: gold;
   color: white;
   border: 3px solid black;
